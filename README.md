@@ -1,6 +1,6 @@
 # VocaOrder
 
-A full stack web application starter template for building projects with React, Express.js, and Sequelize.js
+A full stack interactive vocal web application site allows the user to order/recommend food through conversations. Users will be able to see the menus of foods based on their taste 
 
 **Current version:** 2022.2 (Oct 2022)
 
