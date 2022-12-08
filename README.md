@@ -1,8 +1,12 @@
 # VocaOrder
 
-A full stack interactive vocal web application site allows the user to order/recommend food through conversations. Users will be able to see the menus of foods based on their taste 
+A full stack interactive vocal web application site allows the user to order/recommend food through conversations. Users will be able to see the menus of foods based on their taste
 
-**Current version:** 2022.2 (Oct 2022)
+## Why do we need it?
+People sometimes are stressed out and unable to decide what they want. It will be more convenient, quicker, interactive, and help people to figure out what they want to eat. This application will evaluate their mood and recommend food based on voice command
+
+
+**Current version:** 2022.2 (Dec 2022)
 
 ## Stack
 
