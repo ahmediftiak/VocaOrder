@@ -24,8 +24,6 @@ _Frontend React client_
 
 ## Development Setup
 
-Each team member will need to do this on their local machine.
-
 ### Ensure you have PostgreSQL installed
 
 - Check if you have PostgreSQL installed
@@ -91,78 +89,6 @@ npm start
 
 > In production you will only deploy a single app. The react client will build into static files that will be served from the backend.
 
-## Deployment
-
-### Hosting on Railway.app (recommended)
-
-1. Create a Starter account using your Github username
-   - You get $5 in credit a month for free and do not have to provide a credit card
-2. Verify your account by answering Railways questions
-3. Create a **"New Project"**
-4. Select **"Deploy from Github repo"**
-   - follow instruction to link your project repo to railway
-5. Click **"Deploy now"**
-   - your app will fail, but we will fix it in the next steps
-6. Add a PostgreSQL Database to your Railway project
-   - click the **"+ New"** button at the top right of the project
-   - click **"Database >"**
-   - click **"Add PostgreSQL"**
-   - to add a PostgreSQL Database to your project
-7. Add environment variables if you need any
-   - Do not add the `PORT` variable (Railway will set this for you)
-
-Your app will now be live and auto deployed on new commits. If it's not working you may need to restart the app manually in the Railway UI.
-
-### Hosting on Heroku (no longer free)
-
-> NOTE: Heroku is no longer free, but these instructions still work. We recommend getting started with railway.app
-
-1. Create a Heroku account (_if you don't have one_)
-2. Install the [heroku cli](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) (_if you don't already have it_)
-
-- Requires that you have `git` installed
-
-```bash
-# login with the cli tool
-heroku login
-```
-
-#### Create a Heroku project
-
-Next, `cd` into this project directory and create a project:
-
-```bash
-# replace `cool-appname` with your preferred app name
-heroku create cool-appname
-
-# add a free PostgreSQL database to your heroku project
-heroku addons:create heroku-postgresql:hobby-dev
-```
-
-> This will make your app accessible at https://cool-appname.herokuapp.com (_if the name is available_).
-
-> You only need to do this once per app
-
-#### Add Environment Variables
-
-Any environment variables your app needs will be available through your heroku project's settings page.
-
-> NOTE: _Heroku calls them **Config Vars**_
-
-- Go to the dashboard page here: https://dashboard.heroku.com/apps
-- Click on the Settings tab
-- Click `Reveal Config Vars`
-- Add any environment variables you have in your `.env` file
-
-#### Deploying the app
-
-Whenever you want to update the deployed app run this command.
-
-```bash
-git push heroku main
-```
-
-> This command deploys your main branch. You can change that and deploy a different branch such as: `git push heroku development`
 
 ## Project Structure
 
