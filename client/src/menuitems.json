@@ -1,0 +1,527 @@
+[
+    {
+        "id": 425042,
+        "title": "BBQ Chicken Wings",
+        "image": "https://images.spoonacular.com/file/wximages/425042-312x231.png",
+        "imageType": "png",
+        "restaurantChain": "Ci Ci's Pizza",
+        "servingSize": "5 pieces",
+        "readableServingSize": "5 pieces",
+        "servings": {
+            "number": 1.0,
+            "size": 5.0,
+            "unit": "pieces"
+        },
+        "taste": "sweet"
+    },
+    {
+        "id": 261516,
+        "title": "Macaroni & Cheese",
+        "image": "https://images.spoonacular.com/file/wximages/261516-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Sonny's BBQ",
+        "servingSize": "1 portion",
+        "readableServingSize": "1 portion",
+        "servings": {
+            "number": 1.0,
+            "size": 1.0,
+            "unit": "portion"
+        },
+        "taste": "spicy"
+    },
+    {
+        "id": 279662,
+        "title": "Peach Pie",
+        "image": "https://images.spoonacular.com/file/wximages/279662-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Shari's",
+        "servingSize": "1 slice",
+        "readableServingSize": "1 slice",
+        "servings": {
+            "number": 1.0,
+            "size": 1.0,
+            "unit": "slice"
+        },
+        "taste": "sweet"
+    },
+    {
+        "id": 372409,
+        "title": "Cherry Pie",
+        "image": "https://images.spoonacular.com/file/wximages/372409-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Bakers Square",
+        "servingSize": "1 slice",
+        "readableServingSize": "1 slice",
+        "servings": {
+            "number": 1.0,
+            "size": 1.0,
+            "unit": "slice"
+        },
+        "taste": "savory"
+    },
+    {
+        "id": 372402,
+        "title": "Blueberry Pie",
+        "image": "https://images.spoonacular.com/file/wximages/372402-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Bakers Square",
+        "servingSize": "1 slice",
+        "readableServingSize": "1 slice",
+        "servings": {
+            "number": 1.0,
+            "size": 1.0,
+            "unit": "slice"
+        },
+        "taste": "sweet"
+    },
+    {
+        "id": 355062,
+        "title": "Chicken Wings",
+        "image": "https://images.spoonacular.com/file/wximages/355062-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Original Joe's",
+        "servingSize": "1 lb",
+        "readableServingSize": "1 lb",
+        "servings": {
+            "number": 1,
+            "size": 1,
+            "unit": "lb"
+        },
+        "taste": "fatty"
+    },
+    {
+        "id": 401119,
+        "title": "Wing",
+        "image": "https://images.spoonacular.com/file/wximages/401119-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Chicken Shack",
+        "servingSize": "44g",
+        "readableServingSize": "2 oz",
+        "servings": {
+            "number": 1,
+            "size": 44,
+            "unit": "g"
+        },
+        "taste": "salty"
+    },
+    {
+        "id": 426354,
+        "title": "Chicken Wings - Honey BBQ",
+        "image": "https://images.spoonacular.com/file/wximages/426354-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Checker's",
+        "servingSize": "20 wings",
+        "readableServingSize": "20 wings",
+        "servings": {
+            "number": 1,
+            "size": 20,
+            "unit": "wings"
+        },
+        "taste": "savory"
+    },
+    {
+        "id": 227593,
+        "title": "Chilean Sea Bass",
+        "image": "https://images.spoonacular.com/file/wximages/227593-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Bonefish Grill",
+        "servingSize": "1 small serving",
+        "readableServingSize": "Small serving",
+        "servings": {
+            "number": 1,
+            "size": 1,
+            "unit": "small serving"
+        },
+        "taste": "sweet"
+    },
+    {
+        "id": 354837,
+        "title": "Swordfish w/ pumpkin ravioli",
+        "image": "https://images.spoonacular.com/file/wximages/354837-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Bonefish Grill",
+        "servingSize": "1 serving",
+        "readableServingSize": "1 serving",
+        "servings": {
+            "number": 1,
+            "size": 1,
+            "unit": "serving"
+        },
+        "taste": "sweet"
+    },
+    {
+        "id": 354795,
+        "title": "Chilean Sea Bass (Regular)",
+        "image": "https://images.spoonacular.com/file/wximages/354795-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Bonefish Grill",
+        "servingSize": "1 regular serving",
+        "readableServingSize": "Regular",
+        "servings": {
+            "number": 1,
+            "size": 1,
+            "unit": "regular serving"
+        },
+        "taste": "salty"
+    },
+    {
+        "id": 419357,
+        "title": "Burger Sliders",
+        "image": "https://images.spoonacular.com/file/wximages/419357-312x231.png",
+        "imageType": "png",
+        "restaurantChain": "Hooters",
+        "servingSize": null,
+        "readableServingSize": null,
+        "servings": {
+            "number": 1,
+            "size": null,
+            "unit": null
+        },
+        "taste": "fatty"
+    },
+    {
+        "id": 424571,
+        "title": "Bacon King Burger",
+        "image": "https://images.spoonacular.com/file/wximages/424571-312x231.png",
+        "imageType": "png",
+        "restaurantChain": "Burger King",
+        "servingSize": null,
+        "readableServingSize": null,
+        "servings": {
+            "number": 1,
+            "size": null,
+            "unit": null
+        },
+        "taste": "spicy"
+    },
+    {
+        "id": 224185,
+        "title": "Papa Burger",
+        "image": "https://images.spoonacular.com/file/wximages/224185-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "A&W",
+        "servingSize": "282g",
+        "readableServingSize": "7 oz",
+        "servings": {
+            "number": 1,
+            "size": 282,
+            "unit": "g"
+        },
+        "taste": "spicy"
+    },
+    {
+        "id": 424073,
+        "title": "Steak Diane",
+        "image": "https://images.spoonacular.com/file/wximages/424073-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "The Cheesefacke Factory",
+        "servingSize": null,
+        "readableServingSize": null,
+        "servings": {
+            "number": 1,
+            "size": null,
+            "unit": null
+        },
+        "taste": "salty"
+    },
+    {
+        "id": 261518,
+        "title": "Pulled Beef Brisket",
+        "image": "https://images.spoonacular.com/file/wximages/261518-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Sonny's BBQ",
+        "servingSize": "1 serving",
+        "readableServingSize": "1 serving",
+        "servings": {
+            "number": 1,
+            "size": 1,
+            "unit": "serving"
+        },
+        "taste": "salty"
+    },
+    {
+        "id": 424072,
+        "title": "Hibachi Steak",
+        "image": "https://images.spoonacular.com/file/wximages/424072-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "The Cheesefacke Factory",
+        "servingSize": null,
+        "readableServingSize": null,
+        "servings": {
+            "number": 1,
+            "size": null,
+            "unit": null
+        },
+        "taste": "spicy"
+    },
+    {
+        "id": 298194,
+        "title": "Imperial Shrimp",
+        "image": "https://images.spoonacular.com/file/wximages/298194-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Chin's Szechwan Cuisine",
+        "servingSize": "1.5 cups",
+        "readableServingSize": "1.5cups",
+        "servings": {
+            "number": 1,
+            "size": 1.5,
+            "unit": "cups"
+        },
+        "taste": "spicy"
+    },
+    {
+        "id": 298196,
+        "title": "Szechwan Braised String Beans",
+        "image": "https://images.spoonacular.com/file/wximages/298196-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Chin's Szechwan Cuisine",
+        "servingSize": "3 cups",
+        "readableServingSize": "3 cups",
+        "servings": {
+            "number": 1,
+            "size": 3,
+            "unit": "cups"
+        },
+        "taste": "savory"
+    },
+    {
+        "id": 367419,
+        "title": "De Le Press - Turkey Spinach - Balanced Cuisine",
+        "image": "https://spoonacular.com/cdn/ingredients_100x100/whole-chicken.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Le Peep",
+        "servingSize": "1.11 lbs",
+        "readableServingSize": "1.11lbs",
+        "servings": {
+            "number": 1,
+            "size": 1.11,
+            "unit": "lbs"
+        },
+        "taste": "spicy"
+    },
+    {
+        "id": 350660,
+        "title": "Thai Curry Soup (Regular)",
+        "image": "https://images.spoonacular.com/file/wximages/350660-312x231.png",
+        "imageType": "png",
+        "restaurantChain": "Noodles & Company",
+        "servingSize": "1 soup",
+        "readableServingSize": "Regular",
+        "servings": {
+            "number": 1,
+            "size": 1,
+            "unit": "soup"
+        },
+        "taste": "sweet"
+    },
+    {
+        "id": 277892,
+        "title": "Green Curry w/ Chicken Breast",
+        "image": "https://images.spoonacular.com/file/wximages/277892-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Tasty Thai",
+        "servingSize": "400g",
+        "readableServingSize": "14 oz",
+        "servings": {
+            "number": 1,
+            "size": 400,
+            "unit": "g"
+        },
+        "taste": "spicy"
+    },
+    {
+        "id": 253171,
+        "title": "Coconut Curry w/ Chicken - Original",
+        "image": "https://images.spoonacular.com/file/wximages/253171-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Pei Wei Asian Diner",
+        "servingSize": null,
+        "readableServingSize": null,
+        "servings": {
+            "number": 1,
+            "size": null,
+            "unit": null
+        },
+        "taste": "salty"
+    },
+    {
+        "id": 350614,
+        "title": "Bangkok Curry (Regular)",
+        "image": "https://images.spoonacular.com/file/wximages/350614-312x231.png",
+        "imageType": "png",
+        "restaurantChain": "Noodles & Company",
+        "servingSize": "1 noodles",
+        "readableServingSize": "Regular",
+        "servings": {
+            "number": 1,
+            "size": 1,
+            "unit": "noodles"
+        },
+        "taste": "spicy"
+    },
+    {
+        "id": 233278,
+        "title": "Grill and Bar Cheesecake",
+        "image": "https://images.spoonacular.com/file/wximages/233278-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Chili's",
+        "servingSize": null,
+        "readableServingSize": null,
+        "servings": {
+            "number": 1.0,
+            "size": null,
+            "unit": null
+        },
+        "taste": "spicy"
+    },
+    {
+        "id": 419450,
+        "title": "Cheesecake Malt",
+        "image": "https://images.spoonacular.com/file/wximages/419450-312x231.png",
+        "imageType": "png",
+        "restaurantChain": "Sonic",
+        "servingSize": "MEDIUM",
+        "readableServingSize": "Medium",
+        "servings": {
+            "number": 1.0,
+            "size": null,
+            "unit": "MEDIUM"
+        },
+        "taste": "sour"
+    },
+    {
+        "id": 419453,
+        "title": "Cheesecake Shake",
+        "image": "https://images.spoonacular.com/file/wximages/419453-312x231.png",
+        "imageType": "png",
+        "restaurantChain": "Sonic",
+        "servingSize": "LARGE",
+        "readableServingSize": "Large",
+        "servings": {
+            "number": 1.0,
+            "size": null,
+            "unit": "LARGE"
+        },
+        "taste": "sweet"
+    },
+    {
+        "id": 234234,
+        "title": "Milk & Oreo Cookies Shake, Like It",
+        "image": "https://images.spoonacular.com/file/wximages/234234-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Cold Stone Creamery",
+        "servingSize": "12 fl. oz",
+        "readableServingSize": "12 fl oz",
+        "servings": {
+            "number": 1.0,
+            "size": 12.0,
+            "unit": "fl"
+        },
+        "taste": "sour"
+    },
+    {
+        "id": 234555,
+        "title": "Oreo Overload, Love It",
+        "image": "https://images.spoonacular.com/file/wximages/234555-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Cold Stone Creamery",
+        "servingSize": "275g",
+        "readableServingSize": "10 oz",
+        "servings": {
+            "number": 1.0,
+            "size": 275.0,
+            "unit": "g"
+        },
+        "taste": "savory"
+    },
+    {
+        "id": 421612,
+        "title": "Vanilla Ice Cream Waffle Cone",
+        "image": "https://images.spoonacular.com/file/wximages/421612-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Culver's",
+        "servingSize": "2 Scoop",
+        "readableServingSize": "2 scoop",
+        "servings": {
+            "number": 1.0,
+            "size": 2.0,
+            "unit": "Scoop"
+        },
+        "taste": "sweet"
+    },
+    {
+        "id": 320123,
+        "title": "Pizza Veggie",
+        "image": "https://images.spoonacular.com/file/wximages/320123-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Buca Di Beppo",
+        "servingSize": null,
+        "readableServingSize": null,
+        "servings": {
+            "number": 1,
+            "size": null,
+            "unit": null
+        },
+        "taste": "salty"
+    },
+    {
+        "id": 426101,
+        "title": "Grill and Bar Pizza - Pepperoni - 6",
+        "image": "https://images.spoonacular.com/file/wximages/426101-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Chili's",
+        "servingSize": "Kids",
+        "readableServingSize": "Kids",
+        "servings": {
+            "number": 1,
+            "size": null,
+            "unit": "Kids"
+        },
+        "taste": "sweet"
+    },
+    {
+        "id": 378562,
+        "title": "Donair Pizza, 9",
+        "image": "https://images.spoonacular.com/file/wximages/378562-312x231.png",
+        "imageType": "png",
+        "restaurantChain": "Pizza 73",
+        "servingSize": "1 Slice",
+        "readableServingSize": "1 Slice",
+        "servings": {
+            "number": 1,
+            "size": 1,
+            "unit": "Slice"
+        },
+        "taste": "spicy"
+    },
+    {
+        "id": 359084,
+        "title": "Meaty Max Pizza",
+        "image": "https://images.spoonacular.com/file/wximages/359084-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Pizza Inn",
+        "servingSize": "8 slices",
+        "readableServingSize": "Medium",
+        "servings": {
+            "number": 1,
+            "size": 8,
+            "unit": "slices"
+        },
+        "taste": "savory"
+    },
+    {
+        "id": 359166,
+        "title": "Veggie Max Pizza",
+        "image": "https://images.spoonacular.com/file/wximages/359166-312x231.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "Pizza Inn",
+        "servingSize": "8 slices",
+        "readableServingSize": "Large",
+        "servings": {
+            "number": 1,
+            "size": 8,
+            "unit": "slices"
+        },
+        "taste": "salty"
+    }
+]
