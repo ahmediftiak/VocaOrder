@@ -1,1 +1,30 @@
 /* Add custom CSS here */
+.col-sm-8 {
+  margin: auto;
+  width: 50%;
+}
+
+.menus-box {
+  margin-top: 5px;
+}
+
+.menu-box {
+  text-align: center;
+  border: rgb(214, 175, 175) ridge 1px;
+  border-radius: 50px;
+  margin-left: 10%;
+  width: 30rem;
+  /* padding-left: 5px; */
+}
+
+.menu-box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4px;
+  width: auto;
+}
+
+.menu-box h6 {
+  display: none;
+}

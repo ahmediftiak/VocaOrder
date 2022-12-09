@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
 import PostsListPage from "./pages/PostsListPage";
-import PostFormPage from "./pages/PostFormPage";
-import Menus from "./pages/menus";
+// import PostFormPage from "./pages/PostFormPage";
+import MenuPage from "./pages/menuPage";
 import ShowPostPage from "./pages/ShowPostPage";
 import AboutUsPage from "./pages/AboutUsPage";
 import LoginPage from "./pages/LoginPage";
@@ -52,7 +52,7 @@ function App() {
                 element={
                   <PrivateRouteRequiresAuth>
                     {/* <PostFormPage /> */}
-                    <Menus />
+                    <MenuPage />
                   </PrivateRouteRequiresAuth>
                 }
               />

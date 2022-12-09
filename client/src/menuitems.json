@@ -27,7 +27,7 @@
             "size": 1.0,
             "unit": "portion"
         },
-        "taste": "spicy"
+        "taste": "savory"
     },
     {
         "id": 279662,
@@ -252,36 +252,6 @@
             "size": null,
             "unit": null
         },
-        "taste": "spicy"
-    },
-    {
-        "id": 298194,
-        "title": "Imperial Shrimp",
-        "image": "https://images.spoonacular.com/file/wximages/298194-312x231.jpg",
-        "imageType": "jpg",
-        "restaurantChain": "Chin's Szechwan Cuisine",
-        "servingSize": "1.5 cups",
-        "readableServingSize": "1.5cups",
-        "servings": {
-            "number": 1,
-            "size": 1.5,
-            "unit": "cups"
-        },
-        "taste": "spicy"
-    },
-    {
-        "id": 298196,
-        "title": "Szechwan Braised String Beans",
-        "image": "https://images.spoonacular.com/file/wximages/298196-312x231.jpg",
-        "imageType": "jpg",
-        "restaurantChain": "Chin's Szechwan Cuisine",
-        "servingSize": "3 cups",
-        "readableServingSize": "3 cups",
-        "servings": {
-            "number": 1,
-            "size": 3,
-            "unit": "cups"
-        },
         "taste": "savory"
     },
     {
@@ -372,7 +342,7 @@
             "size": null,
             "unit": null
         },
-        "taste": "spicy"
+        "taste": "sour"
     },
     {
         "id": 419450,
