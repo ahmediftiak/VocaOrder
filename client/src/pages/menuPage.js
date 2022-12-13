@@ -30,7 +30,7 @@ function MenuPage() {
               aria-label="taste"
               className="form-control"
               value={voiceQuery}
-              onChange={event => setQuery(event.target.value)}
+              onChange={event => setVoiceQuery(event.target.value)}
             />
           </div>
         </div>
@@ -44,9 +44,9 @@ function MenuPage() {
       <br></br>
       { // eslint-disable-next-line
         menuData.filter(menu => {
-          if (query === '') {
+          if (voiceQuery === '') {
             return menu;
-          } else if (menu.taste.toLowerCase().includes(query.toLowerCase())) {
+          } else if (menu.taste.toLowerCase().includes(voiceQuery.toLowerCase())) {
             return menu;
           }
         }).map((menu, id) => (
