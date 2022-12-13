@@ -1,30 +1,23 @@
-import React from "react";
-import { useState } from "react";
-import SpeechRecognition, { useSpeechRecognition } from "react-speech-recognition";
+import React, { useState } from "react";
+// import SpeechRecognition, { useSpeechRecognition } from "react-speech-recognition";
 
 
 import menuData from "../menuitems.json";
 import micImage from "../images/icons8-microphone-50.png"
-// import VoiceRecord from "../components/SpeechRecognition";
+import VoiceRecord from "../components/SpeechRecognition";
+
 
 function MenuPage() {
 
+  const [voiceQuery, setVoiceQuery] = useState("")
+
   const [query, setQuery] = useState("")
-  // const {
-  //   transcript,
-  //   listening,
-  //   resetTranscript,
-  //   browserSupportsSpeechRecognition
-  // } = useSpeechRecognition();
-
-  // if (!browserSupportsSpeechRecognition) {
-  //   return <span>Browser doesn't support speech recognition.</span>;
-  // }
-
 
   return (
-
     <div className="App">
+      <div>
+        < VoiceRecord setVoiceQuery={setVoiceQuery} />
+      </div>
       <h1>Menus list</h1>
       <div className="row">
         <div className="col-sm-8">
@@ -36,17 +29,16 @@ function MenuPage() {
               type="text"
               aria-label="taste"
               className="form-control"
+              value={voiceQuery}
               onChange={event => setQuery(event.target.value)}
             />
           </div>
         </div>
         <div className="col-sm-4">
           <p>click on the voice icon to get your food menu</p>
-          {/* <p>Ritu Speak here... {listening ? "on" : "off"}</p>
-          <button onClick={SpeechRecognition.startListening}> */}
-            <img src={micImage} alt="micImage" />
-          {/* </button> */}
-          {/* <button onClick={resetTranscript}>Reset</button> */}
+
+          <img src={micImage} alt="micImage" />
+
         </div>
       </div>
       <br></br>
@@ -58,8 +50,8 @@ function MenuPage() {
             return menu;
           }
         }).map((menu, id) => (
-          <div className="menus-box">
-            <div className="menu-box" key={id}>
+          <div className="menus-box" key={id}>
+            <div className="menu-box">
               <h3>{menu.title}</h3>
               <img src={menu.image} alt="foodImage" />
               <h6>{menu.taste}</h6>

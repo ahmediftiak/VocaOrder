@@ -1,7 +1,7 @@
-import React from "react";
+import React, {useEffect} from "react";
 import SpeechRecognition, { useSpeechRecognition } from "react-speech-recognition";
 
-const VoiceRecord = () => {
+const VoiceRecord = ({ setVoiceQuery }) => {
     const {
         transcript,
         listening,
@@ -9,10 +9,12 @@ const VoiceRecord = () => {
         browserSupportsSpeechRecognition
     } = useSpeechRecognition();
 
+    useEffect(() => setVoiceQuery(transcript), [transcript])
+
     if (!browserSupportsSpeechRecognition) {
         return <span>Browser doesn't support speech recognition.</span>;
     }
-
+    // setVoiceQuery(transcript)
     return (
         <div>
             <p>Ritu Speak here... {listening ? "on" : "off"}</p>
