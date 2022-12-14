@@ -1,5 +1,9 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import SpeechRecognition, { useSpeechRecognition } from "react-speech-recognition";
+
+import micImage from "../images/icons8-microphone-50.png"
+import micMuteImage from "../images/icons8-mute-50.png"
+import reloadImage from "../images/icons8-rotate-left-50.png"
 
 const VoiceRecord = ({ setVoiceQuery }) => {
     const {
@@ -14,17 +18,23 @@ const VoiceRecord = ({ setVoiceQuery }) => {
     if (!browserSupportsSpeechRecognition) {
         return <span>Browser doesn't support speech recognition.</span>;
     }
-    // setVoiceQuery(transcript)
+
     return (
-        <div>
-            <p>Ritu Speak here... {listening ? "on" : "off"}</p>
-            <button onClick={SpeechRecognition.startListening}>Start</button>
-            <button onClick={SpeechRecognition.stopListening}>Stop</button>
-            <button onClick={resetTranscript}>Reset</button>
-            <br />
-            <br />
-            {/* <p>{transcript}</p> */}
-            <input type="text" value={transcript} />
+        <div class="container">
+            <h6>{listening ? "listening ON" : "listening OFF"}</h6>
+            <p>click on the voice icon to get your food menu</p>
+            {/* <input type="text" value={transcript} /> */}
+            <div class="row">
+                <div class="col-sm">
+                    <img src={micImage} onClick={SpeechRecognition.startListening} alt="micImage" />
+                </div>
+                <div class="col-sm">
+                    <img src={micMuteImage} onClick={SpeechRecognition.stopListening} alt="micMuteImage" />
+                </div>
+                <div class="col-sm">
+                    <img src={reloadImage} onClick={resetTranscript} alt="reloadImage" />
+                </div>
+            </div>
         </div>
     );
 };

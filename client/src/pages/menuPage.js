@@ -1,23 +1,14 @@
 import React, { useState } from "react";
-// import SpeechRecognition, { useSpeechRecognition } from "react-speech-recognition";
-
 
 import menuData from "../menuitems.json";
-import micImage from "../images/icons8-microphone-50.png"
 import VoiceRecord from "../components/SpeechRecognition";
-
 
 function MenuPage() {
 
   const [voiceQuery, setVoiceQuery] = useState("")
 
-  const [query, setQuery] = useState("")
-
   return (
     <div className="App">
-      <div>
-        < VoiceRecord setVoiceQuery={setVoiceQuery} />
-      </div>
       <h1>Menus list</h1>
       <div className="row">
         <div className="col-sm-8">
@@ -35,14 +26,11 @@ function MenuPage() {
           </div>
         </div>
         <div className="col-sm-4">
-          <p>click on the voice icon to get your food menu</p>
-
-          <img src={micImage} alt="micImage" />
-
+          < VoiceRecord setVoiceQuery={setVoiceQuery} />
         </div>
       </div>
       <br></br>
-      { // eslint-disable-next-line
+      {
         menuData.filter(menu => {
           if (voiceQuery === '') {
             return menu;
@@ -59,6 +47,7 @@ function MenuPage() {
           </div>
         ))
       }
+      <br></br>
     </div>
   );
 }
