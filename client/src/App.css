@@ -30,3 +30,20 @@
 }
 
 /* Landing Page CSS */
+
+.about {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+  border-radius: 25px;
+  border: 2px;
+  padding: 20px;
+}
+.person {
+  border-radius: 25px;
+  border: 2px solid blue;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
